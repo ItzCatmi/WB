@@ -1,5 +1,25 @@
+# Dependencies
 node_modules/
-.next/
+__pycache__/
+*.pyc
+
+# Build output
 dist/
-build/
+
+# Data (created at runtime)
+data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
 *.log
+.next/
+build/
